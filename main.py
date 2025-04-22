@@ -1,5 +1,5 @@
 def menu_principal():
-    valor_usuari = game.ask_for_number("Quina conversió vols fer? 1: F->C o 2: C->F",1)
+    valor_usuari = game.ask_for_number("Quina conversió vols fer? 1: F->C o 2: C->F", 1)
     return valor_usuari
 
 def llegir_valor(missatge, digits):
